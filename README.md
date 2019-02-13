@@ -1,5 +1,7 @@
 1. Start application:
+
       mvn spring-boot:run
+      
 2. Use Postman to test apis:
 
       Create a transformer
@@ -27,10 +29,12 @@
       GET:
       http://localhost:8080/api/transformer/winner/1,2,3
 
-3. Unit tests
+3. Unit tests:
+
      mvn clean package
 
-4. Swgager
+4. Swgager:
+
      http://localhost:8080/swagger-ui.html
 
 
